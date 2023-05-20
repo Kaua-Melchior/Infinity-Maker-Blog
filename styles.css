@@ -105,10 +105,6 @@ nav a {
   text-decoration: none;
 }
 
-main div a:nth-child(2){
-  border-radius: 10%;
-}
-
 /* Estilos para os botões */
 .meuBotao {
   width: 450px;

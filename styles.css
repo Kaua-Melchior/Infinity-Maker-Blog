@@ -56,16 +56,15 @@ header {
   margin: 9px;
 
   background-image: url("./assets/fuguete.png");
-  background-position: top right;
+  background-position: top;
   background-repeat: no-repeat;
   background-size: auto 100%;
 
   color: #fff;
-  padding: 10px;
-  padding-left: 335px;
-  padding-right: 140px;
+  margin-top:25px ;
+
   display: flex;
-  justify-content: space-between;
+  
   align-items: center;
 
   animation: entering 1.0s ease-in-out;
@@ -88,8 +87,11 @@ h2 {
 nav ul {
   list-style: none;
   margin: 0;
-  padding: 0;
+  padding: 0.4%;
   display: flex;
+  justify-content: center;
+
+  background: linear-gradient(#2d2d2d,#494949);
 }
 
 nav li {
@@ -101,6 +103,8 @@ nav li:last-child {
 }
 
 nav a {
+  font-size: 150%;
+  font-family: Teko;
   color: #fff;
   text-decoration: none;
 }

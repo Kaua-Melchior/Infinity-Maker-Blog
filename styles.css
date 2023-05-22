@@ -55,7 +55,7 @@ body {
 header {
   margin: 9px;
 
-  background-image: url("./assets/fuguete.png");
+  background-image: url("./assets/fuguete.png"); 
   background-position: top;
   background-repeat: no-repeat;
   background-size: auto 100%;

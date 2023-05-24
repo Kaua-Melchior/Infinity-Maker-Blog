@@ -133,14 +133,6 @@ nav a {
   gap: 25px; /* espaço entre os botões */
 }
 
-/* Estilos para a grade de botões em dispositivos móveis */
-@media screen and (max-width: 767px) {
-  .grid-container {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-/* Estilos para o subtítulo */
 .meuBotao p {
   margin: 0;
   font-size: 14px;
@@ -148,8 +140,11 @@ nav a {
   font-family: Abril Fatface, Serif;
 }
 
+/* Estilos para o subtítulo */
+
 .transparente {
-  color: rgba(0, 0, 0, 0); /* Cor preta com 50% de transparência */
+  height: 300px;
+  width: 1px;
 }
 
 footer {
@@ -165,3 +160,17 @@ main{
 main a {
   text-decoration: none;
 }
+
+
+/* Estilos para a grade de botões em dispositivos móveis */
+@media (max-width: 768px){
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .transparente {
+    height: 150px;
+    width: 1px;
+  }
+}
+

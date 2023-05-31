@@ -163,7 +163,7 @@ main a {
 
 
 /* Estilos para a grade de botões em dispositivos móveis */
-@media (max-width: 768px){
+@media (max-width: 768px) {
   .grid-container {
     grid-template-columns: repeat(2, 1fr);
   }

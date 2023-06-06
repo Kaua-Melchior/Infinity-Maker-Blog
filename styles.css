@@ -183,6 +183,9 @@ main a {
   margin-right: 6%;
   }
 
+  header {
+    background-image: url("./assets/fugueteV2.0.png"); 
+  }
 
   nav a {
     font-size: 300%;
@@ -209,7 +212,7 @@ main a {
   }
 
   .transparente {
-    height: 230px;
+    height: 315px;
     width: 0px;
   }
 }

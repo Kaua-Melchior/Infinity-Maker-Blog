@@ -218,36 +218,3 @@ main a {
 
 
 
-@media (min-width: 768px) and (max-width:990px) {
-  .grid-container {
-    grid-template-columns: repeat(1, 1fr);
-  }
-
-  .meuBotao {
-    width: 800px;
-    height: 600px;
-  }
-
-  nav a {
-    font-size: 300%;
-    padding-left:30px ;
-    padding-right:30px ;
-  }
-
-
-  .titulo {
-  
-    margin-left: 6%;
-  margin-right: 6%;
-  }
-
-  main h{
-    font-family: Bebas Neue;
-    font-size: 40px; 
-  }
-
-  .transparente {
-    height: 220px;
-    width: 0px;
-  }
-}

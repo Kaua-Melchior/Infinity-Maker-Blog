@@ -164,15 +164,66 @@ main a {
 }
 
 
-/* Estilos para a grade de botões em dispositivos móveis */
-@media (max-width: 768px) {
+
+
+@media (max-width: 1200px) {
   .grid-container {
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .titulo {
+  
+    margin-left: 6%;
+  margin-right: 6%;
+  }
+
+
+  nav a {
+    font-size: 365%;
+      padding-left:30px ;
+      padding-right:30px ;
+  }
+
+  main h{
+    font-family: Bebas Neue;
+    font-size: 40px; 
+  }
+
   .transparente {
-    height: 150px;
-    width: 1px;
+    height: 230px;
+    width: 0px;
   }
 }
 
+
+
+
+
+@media (min-width: 768px) and (max-width:990px) {
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  nav a {
+    font-size: 365%;
+    padding-left:30px ;
+    padding-right:30px ;
+  }
+
+
+  .titulo {
+  
+    margin-left: 6%;
+  margin-right: 6%;
+  }
+
+  main h{
+    font-family: Bebas Neue;
+    font-size: 40px; 
+  }
+
+  .transparente {
+    height: 220px;
+    width: 0px;
+  }
+}

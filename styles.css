@@ -171,6 +171,11 @@ main a {
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .meuBotao {
+    width: 450px;
+    height: 325px;
+  }
+
   .titulo {
   
     margin-left: 6%;
@@ -179,7 +184,7 @@ main a {
 
 
   nav a {
-    font-size: 365%;
+    font-size: 315%;
       padding-left:30px ;
       padding-right:30px ;
   }
@@ -204,8 +209,13 @@ main a {
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .meuBotao {
+    width: 450px;
+    height: 325px;
+  }
+
   nav a {
-    font-size: 365%;
+    font-size: 315%;
     padding-left:30px ;
     padding-right:30px ;
   }

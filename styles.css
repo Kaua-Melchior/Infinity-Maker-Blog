@@ -130,6 +130,7 @@ nav a {
 
 /* Estilos para a grade de botões em desktops */
 .grid-container {
+  justify-items: center;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 25px; /* espaço entre os botões */
@@ -172,8 +173,8 @@ main a {
   }
 
   .meuBotao {
-    width: 500px;
-    height: 400px;
+    width: 800px;
+    height: 600px;
   }
 
   .titulo {
@@ -194,6 +195,19 @@ main a {
     font-size: 40px; 
   }
 
+  a img{
+    width: 190px;
+    height: 160px;
+  }
+
+  h2 {
+    font-size: 245%;
+  }
+
+  .meuBotao p {
+    font-size: 200%;
+  }
+
   .transparente {
     height: 230px;
     width: 0px;
@@ -210,8 +224,8 @@ main a {
   }
 
   .meuBotao {
-    width: 500px;
-    height: 400px;
+    width: 800px;
+    height: 600px;
   }
 
   nav a {

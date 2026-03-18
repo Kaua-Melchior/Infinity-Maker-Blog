@@ -14,4 +14,4 @@ Esse projeto foi desenvolvido por Kauã Melchior com as seguintes tecnologias:
 
 ## 🏷️ Site
 Você pode visualizar o Site através 
-[desse link](https://kaua-melchior.github.io/Infinity-Maker-Blog/). 
+[desse link](https://infinity-maker-blog.web.app/). 
